@@ -96,7 +96,7 @@ if(isset($_POST['update_post'])){
 
     <div class="form-group">
         <label for="category">Post Image</label>
-        <img class="img-responsive" src="../images/<?php echo $post_image; ?>"
+        <img class="img-responsive" src="../images/<?php echo $post_image; ?>">
         <input type="file" name="image">
     </div>
 
