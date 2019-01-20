@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41b64986-2a8d-406c-b34b-0ef661666d9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/includes/add_post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/add_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/add_post.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="39" selection-start-line="20" selection-start-column="4" selection-end-line="24" selection-end-column="39" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -63,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/posts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
+            <state relative-caret-position="44">
               <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
             </state>
           </provider>
@@ -72,8 +72,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/includes/add_post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#2502#2549#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,12 +124,12 @@
         <option value="$PROJECT_DIR$/admin/includes/update_categories.php" />
         <option value="$PROJECT_DIR$/admin/includes/admin_header.php" />
         <option value="$PROJECT_DIR$/admin/categories.php" />
-        <option value="$PROJECT_DIR$/admin/functions.php" />
         <option value="$PROJECT_DIR$/admin/includes/admin_navigation.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/includes/view_all_posts.php" />
         <option value="$PROJECT_DIR$/admin/posts.php" />
         <option value="$PROJECT_DIR$/admin/includes/add_post.php" />
+        <option value="$PROJECT_DIR$/admin/functions.php" />
       </list>
     </option>
   </component>
@@ -195,14 +198,6 @@
               <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
               <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
               <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
               <item name="includes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -261,7 +256,7 @@
       <workItem from="1547837157189" duration="2312000" />
       <workItem from="1547839901555" duration="967000" />
       <workItem from="1547840918199" duration="33061000" />
-      <workItem from="1548002222896" duration="2998000" />
+      <workItem from="1548002222896" duration="4429000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1547841142263</created>
@@ -431,11 +426,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548004379912</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Create post html form in admin (110)">
+      <created>1548005434779</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1548005434780</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39338000" />
+    <option name="totallyTimeSpent" value="40769000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -519,7 +521,8 @@
     <MESSAGE value="Create a html table(108)" />
     <MESSAGE value="Displaying posts in admin(108)" />
     <MESSAGE value="Including Pages based on condition technique(109)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Including Pages based on condition technique(109)" />
+    <MESSAGE value="Create post html form in admin (110)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create post html form in admin (110)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/56ecd8b6-0aa0-4c40-976f-782ff1eb8758/console.sql">
@@ -626,17 +629,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="39" selection-start-line="20" selection-start-column="4" selection-end-line="24" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/posts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -647,17 +657,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/posts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/add_post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="255">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#2502#2549#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
