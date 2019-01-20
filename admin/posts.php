@@ -28,8 +28,9 @@
                     break;
 
                     default:
-                    include "includes/add_post.php";
+                    include "includes/view_all_posts.php";
                 }
+
                 ?>
 
                 </div>
