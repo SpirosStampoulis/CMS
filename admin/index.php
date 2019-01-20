@@ -1,4 +1,4 @@
-<?php include "includes/header.php"?>
+<?php include "includes/header.php";?>
 
     <div id="wrapper">
 
@@ -28,4 +28,5 @@
         </div>
         <!-- /#page-wrapper -->
 
-   <? include "includes/footer.php" ?>
+   <?php include "includes/footer.php"; ?>
+
