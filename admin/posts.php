@@ -23,12 +23,12 @@
                     $source = '';
                 }
                 switch ($source){
-                    case '34';
-                    echo "nice";
+                    case 'add_post.php';
+                        include "includes/add_post.php";
                     break;
 
                     default:
-                    include "includes/view_all_posts.php";
+                    include "includes/add_post.php";
                 }
                 ?>
 

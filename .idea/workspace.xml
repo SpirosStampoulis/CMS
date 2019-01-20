@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41b64986-2a8d-406c-b34b-0ef661666d9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/includes/view_all_posts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/includes/add_post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/posts.php" afterDir="false" />
     </list>
@@ -60,11 +60,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/posts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+            <state relative-caret-position="197">
+              <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/includes/add_post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -117,6 +126,7 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/includes/view_all_posts.php" />
         <option value="$PROJECT_DIR$/admin/posts.php" />
+        <option value="$PROJECT_DIR$/admin/includes/add_post.php" />
       </list>
     </option>
   </component>
@@ -185,6 +195,14 @@
               <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
               <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
               <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+              <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
               <item name="includes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -210,6 +228,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Udemy\xampp\htdocs\cms\admin\includes" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Udemy\xampp\htdocs\cms\admin" />
       <recent name="E:\Udemy\xampp\htdocs\cms" />
@@ -240,7 +261,7 @@
       <workItem from="1547837157189" duration="2312000" />
       <workItem from="1547839901555" duration="967000" />
       <workItem from="1547840918199" duration="33061000" />
-      <workItem from="1548002222896" duration="2117000" />
+      <workItem from="1548002222896" duration="2998000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1547841142263</created>
@@ -403,11 +424,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548003759520</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Including Pages based on condition technique(109)">
+      <created>1548004379912</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1548004379912</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38457000" />
+    <option name="totallyTimeSpent" value="39338000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -490,7 +518,8 @@
     <MESSAGE value="Refactoring(106)" />
     <MESSAGE value="Create a html table(108)" />
     <MESSAGE value="Displaying posts in admin(108)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Displaying posts in admin(108)" />
+    <MESSAGE value="Including Pages based on condition technique(109)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Including Pages based on condition technique(109)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/56ecd8b6-0aa0-4c40-976f-782ff1eb8758/console.sql">
@@ -620,8 +649,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/posts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+        <state relative-caret-position="197">
+          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/add_post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
