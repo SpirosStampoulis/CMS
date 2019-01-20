@@ -41,15 +41,7 @@
         echo "</tr>";
     }
     ?>
-    <td>10</td>
-    <td>Edwin Diaz</td>
-    <td>Bootstrap framework</td>
-    <td>Bootstrap</td>
-    <td>status</td>
-    <td>image</td>
-    <td>tags</td>
-    <td>comments</td>
-    <td>date</td>
+
 
     </tbody>
 </table>
