@@ -46,8 +46,11 @@
                 <a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
 
                 <hr>
+                <?php }?>
                 <!--                    closing the while loop-->
                 <?php
+            if(isset($_POST['create_comment'])){
+                echo $_POST['comment_author'];
             }?>
 
             <!-- Blog Comments -->
@@ -55,11 +58,20 @@
             <!-- Comments Form -->
             <div class="well">
                 <h4>Leave a Comment:</h4>
-                <form role="form">
+                <form action="" method="post" role="form">
                     <div class="form-group">
-                        <textarea class="form-control" rows="3"></textarea>
+                        <label for="Author">Author</label>
+                        <input type="text" class="form-control" name="comment_author">
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <label for="Email">Email</label>
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="comment_email">
+                    </div>
+                    <label for="Comment">Comment</label>
+                    <div class="form-group">
+                        <textarea name="comment_content" class="form-control" rows="3"></textarea>
+                    </div>
+                    <button type="submit" name="create_comment" class="btn btn-primary">Submit</button>
                 </form>
             </div>
 
